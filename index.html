@@ -3,20 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
-    />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
     <title>Frontend Mentor | Contact Form</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet" />
   </head>
   <body>
     <div class="success-alert"></div>
@@ -30,14 +22,14 @@
             <label for="firstName">
               <input type="text" name="firstName" id="firstName" />
             </label>
-            <p id="alertFirstName" class="alert">This field is required</p>
+            <p class="alert">This field is required</p>
           </div>
           <div class="field-group">
             <h3>Last Name *</h3>
             <label for="lastName">
               <input type="text" name="lastName" id="lastName" />
             </label>
-            <p id="alertLastName" class="alert">This field is required</p>
+            <p class="alert">This field is required</p>
           </div>
         </div>
 
@@ -46,7 +38,7 @@
           <label for="emailAddress">
             <input type="email" name="emailAddress" id="emailAddress" />
           </label>
-          <p id="alertEmail" class="alert">Please enter a valid email address</p>
+          <p class="alert">Please enter a valid email address</p>
         </div>
 
         <div class="field-group full-width">
@@ -61,7 +53,7 @@
               <label for="supportRequest">Support Request</label>
             </div>
           </div>
-          <p id="alertQuery" class="alert">Please select a query type</p>
+          <p class="alert">Please select a query type</p>
         </div>
 
         <div class="field-group full-width">
@@ -69,15 +61,13 @@
           <label for="message">
             <textarea id="message" name="message"></textarea>
           </label>
-          <p id="alertMessage" class="alert">This field is required</p>
+          <p class="alert">This field is required</p>
         </div>
 
         <div class="field-group full-width consent-group">
           <input type="checkbox" id="agreement" />
           <label for="agreement">I consent to being contacted by the team *</label>
-          <p id="alertAgreement" class="alert">
-            To submit this form, please consent to being contacted
-          </p>
+          <p class="alert">To submit this form, please consent to being contacted</p>
         </div>
 
         <div class="btn">
